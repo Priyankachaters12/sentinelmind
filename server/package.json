@@ -1,0 +1,18 @@
+{
+  "name": "sentinelmind-server",
+  "version": "1.0.0",
+  "description": "SentinelMind Backend Express & SQLite API Server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^3.0.2",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  }
+}

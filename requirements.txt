@@ -1,0 +1,2 @@
+# No external packages are required.
+# Tkinter and SQLite are included with most Python installations.

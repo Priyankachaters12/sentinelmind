@@ -1,0 +1,25 @@
+{
+  "name": "sentinelmind",
+  "version": "1.0.0",
+  "description": "SentinelMind — AI-Assisted Mental Wellness & Dynamic Distress Risk Prediction Platform",
+  "scripts": {
+    "train": "python ai_service/train_model.py",
+    "ai": "python ai_service/app.py",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "mental-health",
+    "distress-prediction",
+    "random-forest",
+    "nlp-sentiment",
+    "explainable-ai",
+    "react",
+    "express",
+    "recharts"
+  ],
+  "author": "SentinelMind Team",
+  "license": "MIT"
+}
